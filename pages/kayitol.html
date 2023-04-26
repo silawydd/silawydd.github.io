@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt</title>
+</head>
+
+<body style="background-color: rgba(188, 203, 151, 0.512);"></body>
+<h1><b>Formu Doldurunuz.</b></h1></br>
+<hr></br>
+<form>
+    <label><b>Kaydol</b></label><br /><br />
+    <label>Kullanıcı Adı : </label>
+    <input type="text" name="kullaniciadi" required="required" placeholder="Kullanıcı Adı Giriniz"></br></br>
+    <label>E-Posta : </label>
+    <input type="email" name="email" required="required" placeholder="E-posta Giriniz"> <br /><br />
+    <label>Parola : </label>
+    <input type="password" name="parola" required="required" placeholder="Parola Giriniz"> <br /><br />
+    <label><b>Kişisel Bilgileriniz</b></label><br /><br />
+    <label>Ad : </label>
+    <input type="text" name="ad" required="required"> <br /><br />
+    <label>Soyad : </label>
+    <input type="text" name="soyad" required="required"> <br /><br />
+    <label>Şehir : </label>
+    <select name="sehir" id="sehir">
+        <option selected value="none">Seçiniz</option>
+        <option value="bilecik">Bilecik</option>
+        <option value="eskisehir">Eskişehir</option>
+        <option value="bursa">Bursa</option>
+        <option value="kutahya">Kütahya</option>
+        <option value="Ankara">İstanbul</option>
+    </select><br /><br />
+    <label>Cinsiyet : </label>
+    <input type="radio" name="cinsiyet" />Erkek
+    <input type="radio" name="cinsiyet" />Kadın<br /><br />
+    <input type="submit" value="Kayıt Ol" />
+    <ul>
+        <a href="..//index.html" class="active">Ana Sayfa</a>
+    </ul>
+</form>
+</body>
+
+</html>
