@@ -11,6 +11,14 @@ body {
   color: #000000;
 }
 
+.home-box {
+  background-image: url("../images/book.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -94,6 +102,7 @@ a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   transition: 0.8s;
+
 }
 
 h2 {
@@ -141,4 +150,10 @@ a {
 .about {
   padding-left: 30px;
   padding-right: 30px;
+  height: 60vh;
+  background-image: url("../images/book.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain
 }
