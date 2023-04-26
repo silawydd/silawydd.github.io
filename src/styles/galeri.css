@@ -1,0 +1,30 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    margin: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
+
+.galeri-img {
+    float: left;
+    margin-right: 10px;
+    /* Görseller arasında boşluk bırakmak için */
+}
+
+.galeri-img {
+    width: 300px;
+    height: 300px;
+}

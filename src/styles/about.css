@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans
+}
+
+.about {
+    width: 100%;
+    height: 930px;
+    padding-top: 300px;
+    background-color: #191919;
+}
+
+.about img {
+    height: auto;
+    width: 420px;
+}
+
+.about-text {
+    margin-left: 30px;
+    width: 550px;
+}
+
+.main {
+    max-width: 95%;
+    width: 1130px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-text h1 {
+    color: #6c0000;
+    font-size: 60px;
+}
